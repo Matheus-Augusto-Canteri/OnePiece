@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Alpha</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+        <p><h1>Projeto Alpha - Testes em HTML, CSS, JavaScript e PHP</h1></p>
+            <h2><p>JavaScript</p></h2>
+                <h3><p>Irei fazer alguns testes usando certas tags do JavaScript para ir me aprimorando cada vez mais.</p></h3>
+                <p>Usando a tag button par alterar o estado do botão. É possível esconder elementos HTML, mostrar elementos e alterá-los. Esse primeiro botão vai mostrar elementos!</p>
+                <p id="demo" style="display:none">Exemplo: Sempre disse que o Zoro SOLA!</p>
+                <button type="button" onclick="document.getElementById('demo').style.display='block'">Clique no botão!</button><br>
+                <br><p>Esse botão é para alterar o estilo dos elementos, aqui iremos alterar a fonte.</p>
+                <button type="button" onclick="document.getElementById('demo2').style.fontSize='35px'">Clique no botão!</button>
+                <p id="demo2">Exemplo:  Eu amo programar em HTML, CSS, JavaScript e PHP!</p><br>
+                <p>Este próximo botão é para esconder os elementos HTML.</p>
+                <button type="button" onclick="document.getElementById('demo3').style.display='none'">Clique no botão!</button>
+                <p id="demo3">Exemplo: Meu sonho é trabalhar no desenvolvimento!</p><br>
+                <h3><p>Link Externo JavaScript utilizando a tag script</p></h3>
+                <p id="demo4">Exemplo: utilizando uma URL de site "myScript.js" (Não funciona ainda, devido ao myScript.js ser em .js)</p>
+                <button type="button" onclick="myFunction()">Clique no botão!</button>
+                <p>(myFunction está armazenado em "myScript.js")</p>
+                <script src="https://bsoft.com.br/"></script>
+                <p>Os arquivos JavaScript têm a extensão de arquivo .js .</p>
+                <p>Para usar um script externo, coloque o nome do arquivo de script no srcatributo (source) de uma script tag</p>
+                <p><b><i>Obs: Sempre as tags em JavaScript vão dentro da tag script!</i></b></p>
+                <h3><p>Saída JavaScript</p></h3>
+                <p>JavaScript pode "exibir" dados de diferentes maneiras:</p>
+                <ul>
+                    <li>Escrevendo em um elemento HTML, usando innerHTML.</li>
+                    <li>Escrevendo na saída HTML usando document.write().</li>
+                    <li>Escrevendo em uma caixa de alerta, usando window.alert().</li>
+                    <li>Escrevendo no console do navegador, usando console.log().</li>
+                </ul>
+                <h4><p>Usando innerHTML</p></h4>
+                <p>Ele irá lançar o resultado de uma soma feita, no caso, 5 + 6.</p>
+                <p><p id="demo5"></p>
+                <script>
+                document.getElementById("demo5").innerHTML = 5 + 6;
+                </script>
+                <h4><p>Usando document.write()</p></h4>
+                <p>Ele irá lançar o resultado de uma soma feita, no caso, 5 + 6.</p>
+                <p><b><i>Obs: Nunca chame o document.write após ter carregado o documento, ele irá sobrescrever por inteiro.</i></b></p>
+                <script>
+                document.write(5 + 6);
+                </script>
+                <h4><p>Usando window.alert()</p></h4>
+                <p>Ele irá lançar o resultado de uma soma feita, no caso, 5 + 6.</p>
+                <p>Você pode usar uma caixa de alerta para exibir dados.</p>
+                <script>
+                window.alert(5 + 6);
+                </script>
+                <h4><p>Usando console.log()</p></h4>
+                <p>Ele irá lançar o resultado de uma soma feita, no caso, 5 + 6.</p>
+                <p>Para fins de depuração, você pode chamar o console.log()método no navegador para exibir dados.</p>
+                <p>Pressione F12 no seu teclado.</p>
+                <p>Selecione o console.</p>
+                <p>Clique para rodar novamente.</p>
+                <script>
+                console.log(5 + 6);
+                </script>
+                <h4><p>Impressão JavaScript</p></h4>
+                <p>JavaScript não tem nenhum objeto de impressão ou métodos de impressão.</p>
+                <p>Você não pode acessar dispositivos de saída do JavaScript.</p>
+                <p>A única exceção é que você pode chamar o window.print()método no navegador para imprimir o conteúdo da janela atual.</p>
+                <button onclick="window.print()">Clique no botão para imprimir a página!</button>
+
+</body>
+</html>
+
+
+
+
+</body>
+</html>
