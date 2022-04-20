@@ -40,19 +40,19 @@
                 <p>Ele irá lançar o resultado de uma soma feita, no caso, 5 + 6.</p>
                 <p><p id="demo5"></p>
                 <script>
-                document.getElementById("demo5").innerHTML = 5 + 6;
+                    document.getElementById("demo5").innerHTML = 5 + 6;
                 </script>
                 <h4><p>Usando document.write()</p></h4>
                 <p>Ele irá lançar o resultado de uma soma feita, no caso, 5 + 6.</p>
                 <p><b><i>Obs: Nunca chame o document.write após ter carregado o documento, ele irá sobrescrever por inteiro.</i></b></p>
                 <script>
-                document.write(5 + 6);
+                    document.write(5 + 6);
                 </script>
                 <h4><p>Usando window.alert()</p></h4>
                 <p>Ele irá lançar o resultado de uma soma feita, no caso, 5 + 6.</p>
                 <p>Você pode usar uma caixa de alerta para exibir dados.</p>
                 <script>
-                window.alert(5 + 6);
+                    window.alert(5 + 6);
                 </script>
                 <h4><p>Usando console.log()</p></h4>
                 <p>Ele irá lançar o resultado de uma soma feita, no caso, 5 + 6.</p>
@@ -61,13 +61,59 @@
                 <p>Selecione o console.</p>
                 <p>Clique para rodar novamente.</p>
                 <script>
-                console.log(5 + 6);
+                    console.log(5 + 6);
                 </script>
                 <h4><p>Impressão JavaScript</p></h4>
                 <p>JavaScript não tem nenhum objeto de impressão ou métodos de impressão.</p>
                 <p>Você não pode acessar dispositivos de saída do JavaScript.</p>
                 <p>A única exceção é que você pode chamar o window.print()método no navegador para imprimir o conteúdo da janela atual.</p>
                 <button onclick="window.print()">Clique no botão para imprimir a página!</button>
+                <h3><p>JavaScript Statements</p></h3>
+                <p>Um programa de computador é uma lista de "instruções" a serem "executadas" por um computador.</p>
+                <p>Em uma linguagem de programação, essas instruções de programação são chamadas de instruções.</p>
+                <p>Um programa JavaScript é uma lista de instruções de programação.</p>
+                <p id="demo6"></p>
+                <script>
+                    let x, y, z;  // Statement 1
+                    x = 5;        // Statement 2
+                    y = 6;        // Statement 3
+                    z = x + y;    // Statement 4
+                    document.getElementById("demo6").innerHTML = "O valor de Z é " + z + ".";  
+                </script>
+                <h4><p>Declaração JavaScript</p></h4>
+                <p>As instruções JavaScript são compostas por:</p>
+                <ul>
+                    <li>Valores</li>
+                    <li>Operadores</li>
+                    <li>Expressões</li>
+                    <li>Palavras-chave e Comentários.</li>
+                </ul>
+                <p>Esta instrução diz ao navegador para escrever "Oh shit, here go again.". dentro de um elemento HTML com id="demo"</p>
+                <p id="demo7"></p>
+                <script>
+                    document.getElementById("demo7").innerHTML = "Exemplo: Oh shit, here go again.";
+                </script>
+                <h4><p>Comprimento de linha JavaScript e quebras de linha</p></h4>
+                <p>Para melhor legibilidade, os programadores geralmente preferem evitar linhas de código com mais de 80 caracteres.</p>
+                <p>Se uma instrução JavaScript não couber em uma linha, o melhor lugar para quebrá-la é depois de um operador:</p>
+                <p id="demo8"></p>
+                <script>    
+                    document.getElementById("demo8").innerHTML =
+                    "Odeio Dolly!";
+                </script>
+                <h4><p>Blocos de código JavaScript</p></h4>
+                <p>As instruções JavaScript podem ser agrupadas em blocos de código, dentro de chaves {...}.</p>
+                <p>O objetivo dos blocos de código é definir instruções a serem executadas em conjunto.</p>
+                <p>Um lugar onde você encontrará instruções agrupadas em blocos é nas funções JavaScript.</p>
+                <button type="button" onclick="myFunction()">Clique no botão!</button>
+                <p id="demo9"></p>
+                <p id="demo10"></p>
+                <script>
+                    function myFunction() {
+                    document.getElementById("demo9").innerHTML = "Ei, Dolly!";
+                    document.getElementById("demo10").innerHTML = "Você é meu amiguinho?";
+                    }
+                </script>
 
 </body>
 </html>
