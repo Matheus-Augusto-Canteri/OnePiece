@@ -1,5 +1,5 @@
-div.gallery {
-    margin: 5px;
+    /* Outros quadrados div.gallery {
+    margin: 70px;
     border: 1px solid #ccc;
     float: left;
     width: 200px;
@@ -16,63 +16,269 @@ div.gallery {
   div.gallery img {
     width: 100%;
     height: auto;
+  } */
+  
+  div.gallery_luffy {
+    margin: 75px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 3s, height 4s;
   }
   
-  div.Zenitsu {
-    padding: 15px;
+  div.gallery_luffy:hover {
+    border: 1px solid #777;
+    width: 300px;
+    height: 300px;
+  }
+  
+  div.gallery_luffy img {
+    width: 100%;
+    height: auto;
+  }
+
+  div.Luffy {
+    padding: 12px;
     text-align: center;
     font-size: 20px;
   }
-  div.Luffy {
-    padding: 15px;
-    text-align: center;
-    font-size: 20px;
+
+
+  div.gallery_zoro {
+    margin: 75px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 3s, height 4s;
+  }
+  
+  div.gallery_zoro:hover {
+    border: 1px solid #777;
+    width: 300px;
+    height: 300px;
+  }
+  
+  div.gallery_zoro img {
+    width: 100%;
+    height: auto;
   }
   div.Zoro {
-    padding: 15px;
+    padding: 12px;
     text-align: center;
     font-size: 20px;
   }
+
+
+  div.gallery_nami{
+    margin: 75px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 3s, height 4s;
+  }
+  
+  div.gallery_nami:hover {
+    border: 1px solid #777;
+    width: 300px;
+    height: 300px;
+  }
+  
+  div.gallery_nami img {
+    width: 100%;
+    height: auto;
+  }
+
   div.Nami {
-    padding: 15px;
+    padding: 12px;
     text-align: center;
     font-size: 20px;
+  }
+
+
+  div.gallery_god_usopp {
+    margin: 75px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 3s, height 4s;
+  }
+  
+  div.gallery_god_usopp:hover {
+    border: 1px solid #777;
+    width: 300px;
+    height: 300px;
+  }
+  
+  div.gallery_god_usopp img {
+    width: 100%;
+    height: auto;
   }
   div.Usopp {
-    padding: 15px;
+    padding: 12px;
     text-align: center;
     font-size: 20px;
+  }
+
+
+  div.gallery_sanji {
+    margin: 75px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 3s, height 4s;
+  }
+  
+  div.gallery_sanji:hover {
+    border: 1px solid #777;
+    width: 300px;
+    height: 300px;
+  }
+  
+  div.gallery_sanji img {
+    width: 100%;
+    height: auto;
   }
   div.Sanji {
-    padding: 15px;
+    padding: 12px;
     text-align: center;
     font-size: 20px;
+  }
+
+
+  div.gallery_chopper {
+    margin: 75px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 3s, height 4s;
+  }
+  
+  div.gallery_chopper:hover {
+    border: 1px solid #777;
+    width: 300px;
+    height: 300px;
+  }
+  
+  div.gallery_chopper img {
+    width: 100%;
+    height: auto;
   }
   div.Chopper {
-    padding: 15px;
+    padding: 12px;
     text-align: center;
     font-size: 20px;
+  }
+
+
+  div.gallery_robin {
+    margin: 75px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 3s, height 4s;
+  }
+  
+  div.gallery_robin:hover {
+    border: 1px solid #777;
+    width: 300px;
+    height: 300px;
+  }
+  
+  div.gallery_robin img {
+    width: 100%;
+    height: auto;
   }
   div.Robin {
-    padding: 15px;
+    padding: 12px;
     text-align: center;
     font-size: 20px;
+  }
+
+
+  div.gallery_franky {
+    margin: 75px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 3s, height 4s;
+  }
+  
+  div.gallery_franky:hover {
+    border: 1px solid #777;
+    width: 300px;
+    height: 300px;
+  }
+  
+  div.gallery_franky img {
+    width: 100%;
+    height: auto;
   }
   div.Franky {
-    padding: 15px;
+    padding: 12px;
     text-align: center;
     font-size: 20px;
+  }
+
+
+  div.gallery_brook {
+    margin: 75px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 3s, height 4s;
+  }
+  
+  div.gallery_brook:hover {
+    border: 1px solid #777;
+    width: 300px;
+    height: 300px;
+  }
+  
+  div.gallery_brook img {
+    width: 100%;
+    height: auto;
   }
   div.Brook {
-    padding: 15px;
+    padding: 12px;
     text-align: center;
     font-size: 20px;
+  }
+
+
+  div.gallery_jimbe {
+    margin: 75px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 3s, height 4s;
+  }
+  
+  div.gallery_jimbe:hover {
+    border: 1px solid #777;
+    width: 300px;
+    height: 300px;
+  }
+  
+  div.gallery_jimbe img {
+    width: 100%;
+    height: auto;
   }
   div.Jimbe {
-    padding: 15px;
+    padding: 12px;
     text-align: center;
     font-size: 20px;
   }
+  /*
   div.Eren {
     padding: 15px;
     text-align: center;
@@ -83,3 +289,8 @@ div.gallery {
     text-align: center;
     font-size: 20px;
   }
+  div.Zenitsu {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+  }*/
