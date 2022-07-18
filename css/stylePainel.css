@@ -17,20 +17,20 @@
     width: 100%;
     height: auto;
   } */
-  
+
   div.gallery_luffy {
     margin: 75px;
     border: 0px rgba(255, 7, 7, 0.795);
     float: left;
     width: 200px;
     box-shadow: 0 4px 8px 0 rgba(255, 7, 7, 0.795), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: width 3s, height 4s;
+    transition: width 2s, height 2s;
   }
   
   div.gallery_luffy:hover {
     border: 0px solid #777;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   
   div.gallery_luffy img {
@@ -44,20 +44,19 @@
     font-size: 20px;
   }
 
-
   div.gallery_zoro {
     margin: 75px;
     border: 0px rgba(11, 207, 93, 795);
     float: left;
     width: 200px;
     box-shadow: 0 4px 8px 0 rgba(11, 207, 93, 0.795), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: width 3s, height 4s;
+    transition: width 2s, height 2s;
   }
   
   div.gallery_zoro:hover {
     border: 0px rgba(11, 207, 93, 0.795);
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   
   div.gallery_zoro img {
@@ -77,13 +76,13 @@
     float: left;
     width: 200px;
     box-shadow: 0 4px 8px 0 rgba(255, 136, 0, 0.795), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: width 3s, height 4s;
+    transition: width 2s, height 2s;
   }
   
   div.gallery_nami:hover {
     border: 0px solid #777;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   
   div.gallery_nami img {
@@ -104,13 +103,13 @@
     float: left;
     width: 200px;
     box-shadow: 0 4px 8px 0 rgba(255, 251, 0, 0.795), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: width 3s, height 4s;
+    transition: width 2s, height 2s;
   }
   
   div.gallery_god_usopp:hover {
     border: 0px rgba(255, 251, 0, 0.795);
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   
   div.gallery_god_usopp img {
@@ -135,8 +134,8 @@
   
   div.gallery_sanji:hover {
     border: 0px rgba(4, 8, 241, 0.795);
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   
   div.gallery_sanji img {
@@ -156,13 +155,13 @@
     float: left;
     width: 200px;
     box-shadow: 0 4px 8px 0 rgba(236, 4, 198, 0.792), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: width 3s, height 4s;
+    transition: width 2s, height 2s;
   }
   
   div.gallery_chopper:hover {
     border: 0px rgba(236, 4, 198, 0.792);
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   
   div.gallery_chopper img {
@@ -182,13 +181,13 @@
     float: left;
     width: 200px;
     box-shadow: 0 4px 8px 0 rgba(153, 5, 238, 0.795), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: width 3s, height 4s;
+    transition: width 2s, height 2s;
   }
   
   div.gallery_robin:hover {
     border: 0px rgba(153, 5, 238, 0.795);
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   
   div.gallery_robin img {
@@ -201,20 +200,19 @@
     font-size: 20px;
   }
 
-
   div.gallery_franky {
     margin: 75px;
     border: 0px rgba(4, 198, 233, 0.795);
     float: left;
     width: 200px;
     box-shadow: 0 4px 8px 0 rgba(4, 198, 233, 0.795), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: width 3s, height 4s;
+    transition: width 2s, height 2s;
   }
   
   div.gallery_franky:hover {
     border: 0px rgba(4, 198, 233, 0.795);
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   
   div.gallery_franky img {
@@ -234,13 +232,13 @@
     float: left;
     width: 200px;
     box-shadow: 0 4px 8px 0 rgba(45, 6, 221, 0.795), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: width 3s, height 4s;
+    transition: width 2s, height 2s;
   }
   
   div.gallery_brook:hover {
     border: 0px rgba(45, 6, 221, 0.795);
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   
   div.gallery_brook img {
@@ -253,20 +251,19 @@
     font-size: 20px;
   }
 
-
   div.gallery_jimbe {
     margin: 75px;
     border: 0px rgba(224, 173, 4, 0.795);
     float: left;
     width: 200px;
     box-shadow: 0 4px 8px 0 rgba(224, 173, 4, 0.795), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: width 3s, height 4s;
+    transition: width 2s, height 2s;
   }
   
   div.gallery_jimbe:hover {
     border: 0px rgba(224, 173, 4, 0.795);
-    width: 300px;
-    height: 300px;
+    width: 240px;
+    height: 240px;
   }
   
   div.gallery_jimbe img {
@@ -274,7 +271,7 @@
     height: auto;
   }
   div.Jimbe {
-    padding: 12px;
+    padding: 10px;
     text-align: center;
     font-size: 20px;
   }
