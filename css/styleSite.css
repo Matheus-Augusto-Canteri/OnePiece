@@ -52,7 +52,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: blueviolet;
 }
 
 .dropdown:hover .dropdown-content {
@@ -70,7 +70,7 @@ li a,
 
 li a:hover,
 .contact:hover .contactn {
-  background-color: red;
+  background-color: blue;
 }
 
 li.contact {
@@ -95,7 +95,7 @@ li.contact {
 }
 
 .contact-content a:hover {
-  background-color: #f1f1f1;
+  background-color: blueviolet;
 }
 
 .contact:hover .contact-content {
